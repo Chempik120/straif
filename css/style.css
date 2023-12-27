@@ -1,0 +1,31 @@
+.cube {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation: moveCube 3s infinite;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+}
+
+@keyframes moveCube {
+  0% {
+    position: absolute;
+  }
+  25% {
+    position: absolute;
+    left: 500px;
+    background-color: black;
+  }
+  50% {
+    position: absolute;
+    bottom: 50px;
+    background-color: chartreuse;
+  }
+  75% {
+    position: absolute;
+    background-color: crimson;
+  }
+  100% {
+    position: absolute;
+    background-color: blue;
+  }
+}
